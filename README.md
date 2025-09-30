@@ -7,4 +7,4 @@ The program can be compiled using the command :
 ```
 maturin build --release
 ```
-This creates a wheel in [/target/wheels](/target/wheels), a distribution of the program that can be imported in a python program. An example of how to use a wheel is given in [example](/example).
+This creates a wheel in [/target/wheels](/target/wheels), a distribution of the program that can be imported in a python program. An example of how to use a wheel is given in [example](/example). The wheel is system dependant, the one used in the example is a linux wheel.
