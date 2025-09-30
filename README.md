@@ -2,6 +2,7 @@ MORKpy is used to create python bindings of the rust crate [MORK](https://github
 To actually create a program that can be exported and used in a python program, one needs to install python, then activate the virtual environnement by using the command :
 ```
 python -m venv .env
+pip install maturin
 ```
 The program can be compiled using the command :
 ```
